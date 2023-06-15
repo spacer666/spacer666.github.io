@@ -1,7 +1,7 @@
 # My first web application #
 
 ## Full specification ##
-(source: https://myfirstapp-syllabus.greenfox.academy/week03/my-first-web-app.md)
+source: https://myfirstapp-syllabus.greenfox.academy/week03/my-first-web-app.md
 
 ### Layout and behaviour specification ###
 
