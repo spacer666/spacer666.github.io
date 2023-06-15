@@ -40,7 +40,7 @@ let album = [
     alternativeText: 'Trevi Fountain in Rome',
     title: 'Trevi Fountain',
     hoverTitle: 'Trevi',
-    description: 'One of the most famous fountains in the world. its name derives from trivium (Latin, intersection of three streets) and is located right in the center of Via DeCrocicchi, Via Poli and Via Delle Muratte. Tourists and locals throw coins into the fountain and make wishes.'
+    description: 'One of the most famous fountains in the world. It is located right in the center of Via DeCrocicchi, Via Poli and Via Delle Muratte. Tourists and locals throw coins into the fountain and make wishes.'
   },
   {
     photo: './img/venice.jpg',
