@@ -40,14 +40,14 @@ let album = [
     alternativeText: 'Trevi Fountain in Rome',
     title: 'Trevi Fountain',
     hoverTitle: 'Trevi',
-    description: 'A fountain from the 18th century that is one of the most famous fountains in the world. Its name derives from trivium (Latin, intersection of three streets) and is located right in the center of Via DeCrocicchi, Via Poli and Via Delle Muratte. Coins are purportedly meant to be thrown using the right hand over the left shoulder.'
+    description: 'One of the most famous fountains in the world. its name derives from trivium (Latin, intersection of three streets) and is located right in the center of Via DeCrocicchi, Via Poli and Via Delle Muratte. Tourists and locals throw coins into the fountain and make wishes.'
   },
   {
     photo: './img/venice.jpg',
     alternativeText: 'Landscape of Venice',
     title: 'Venice',
     hoverTitle: 'Venice',
-    description: 'This city is built on a group of more than 100 small islands that are separated by canals and linked together by hundreds of bridges. Main pieces of transport are the gondola and the vaporetto. Lots of tourists visit Venice in order to travel by gondola or to propose in an utterly romantic way.'
+    description: 'This city is built on more than 100 small islands that are separated by canals and linked together by hundreds of bridges. Lots of tourists visit Venice in order to travel by gondola or to propose in an utterly romantic way.'
   },
 ]
 
