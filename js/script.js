@@ -1,22 +1,3 @@
-/*
-# Rome - Colosseum, Trevi Fountain
-https://www.pinterest.com/pin/720083427889547118/
-https://www.superiorwallpapers.com/buildings-and-architecture/wonderful-fountain-in-italy-romantic-holiday-for-lovers
-https://www.peakpx.com/en/hd-wallpaper-desktop-ksiys
-
-# Sirmione - Lake Garda
-https://www.wallpaperflare.com/nature-sirmione-lake-garda-wallpaper-cynyp
-
-# Spoleto - Cathedral
-https://www.umbriatourism.it/en/-/santa-maria-assunta-cathedral-in-spoleto
-
-# Venice - Gondola
-https://rare-gallery.com/349890-4k-wallpaper.html
-
-# San Candido - Bolzano - Trento-Alto-Adige
-https://www.dolomiti.it/en/san-candido
-*/
-
 let currPhoto = 0;
 let album = [
   {
