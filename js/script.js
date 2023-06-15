@@ -5,7 +5,7 @@ let album = [
     alternativeText: 'Colosseum',
     title: 'Colosseum',
     hoverTitle: 'Colosseum',
-    description: 'An amphitheatre from the Ancient Rome that is still popular sight of the city. Since the summer of 2010, the underground part of the building is accessible. It has an elliptical arena which was in fact, a Roman invention. It is actually two semi-circle-shaped theatre placed towards eachother. Nowadays, it functions as a museum and is also the site of Roman Catholic ceremonies in the 20th and 21st centuries.'
+    description: 'An amphitheatre from the Ancient Rome that is still popular sight of the city. Since the summer of 2010, the underground part of the building is accessible. It has an elliptical arena which was in fact, a Roman invention.'
   },
   {
     photo: './img/lake-garda-sirmione.jpg',
@@ -40,14 +40,14 @@ let album = [
     alternativeText: 'Trevi Fountain in Rome',
     title: 'Trevi Fountain',
     hoverTitle: 'Trevi',
-    description: 'A fountain from the 18th century, designed by Nicola Salvi, that is one of the most famous fountains in the world. Its name derives from trivium (Latin, intersection of three streets) and is located right in the center of Via DeCrocicchi, Via Poli and Via Delle Muratte. Coins are purportedly meant to be thrown using the right hand over the left shoulder. (Approx. 3.000 euros are thrown into the fountain on a daily basis.)'
+    description: 'A fountain from the 18th century that is one of the most famous fountains in the world. Its name derives from trivium (Latin, intersection of three streets) and is located right in the center of Via DeCrocicchi, Via Poli and Via Delle Muratte. Coins are purportedly meant to be thrown using the right hand over the left shoulder.'
   },
   {
     photo: './img/venice.jpg',
     alternativeText: 'Landscape of Venice',
     title: 'Venice',
     hoverTitle: 'Venice',
-    description: 'This city is built on a group of more than 100 small islands that are separated by canals. There are hundreds of bridges linking these small islands together. Main pieces of transport are the classic Venetian boat, that is the gondola, and the vaporetto, that is a waterbus. Lots of tourists visit Venice for the experience of traveling by gondola or for a proposal done in an utterly romantic style.'
+    description: 'This city is built on a group of more than 100 small islands that are separated by canals and linked together by hundreds of bridges. Main pieces of transport are the gondola and the vaporetto. Lots of tourists visit Venice in order to travel by gondola or to propose in an utterly romantic way.'
   },
 ]
 
