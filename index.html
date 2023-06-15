@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>My little Italian bucket list</title>
+  </head>
+  
+  <body>
+    <div id="main-container">
+      <h1 id="pg-title">My little bucket-list in Italy</h1>
+      <!-- Part I - Main image (with a semi-transparent textbox) with the 2 buttons -->
+      <div id="main-img-container">
+        <div id="prev-btn">
+          <i class="fa fa-angle-left"></i>
+        </div>
+        <div id="main-img">
+          <img id="photo">
+          <div id="text-box">
+            <h1 id="photo-title"></h1>
+            <p id="photo-description"></p>
+          </div>
+        </div>
+        <div id="next-btn">
+          <i class="fa fa-angle-right"></i>
+        </div>
+      </div>
+      <!-- Part II - Thumbnails -->
+      <div id="thumbnail-container"></div>
+    </div>
+
+    <script src="./js/jquery-v3.7.0.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

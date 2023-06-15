@@ -1,0 +1,151 @@
+/*** Reset ***/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*** Body ***/
+body{
+  background-image: linear-gradient(to bottom, 
+    rgb(26, 15, 5), rgba(24, 5, 5, 0.8)
+  );
+}
+
+/*** Container ***/
+#main-container{
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+  height: 100vh;
+  background: linear-gradient(to right, 
+    #008000 0, #008000 33%, 
+    #eee 33%, #eee 66%, 
+    #800 66%, #800 100%
+  );
+}
+
+/*** Heading ***/
+#pg-title{
+  margin: 0 auto;
+  padding: 10px 0;
+  background: linear-gradient(to top, #321, #008);
+  text-align: center;
+  color: #fff;
+}
+
+/*** Main image container with buttons ***/
+#main-img-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  height: 540px;
+}
+
+#main-img-container #main-img{
+  position: relative;
+  flex-basis: 720px;
+  margin: 67.5px 0;
+  height: 405px;
+}
+
+#main-img-container #main-img img{
+  border-radius: 10px;
+  width: 100%;
+}
+
+#main-img-container #main-img #text-box{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 25%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 10px;
+}
+
+#main-img-container #main-img #text-box > *{
+  padding: 5px 10px;
+}
+
+#main-img-container #main-img #text-box h1{
+  font-size: 1.15rem;
+}
+
+#main-img-container #main-img #text-box p{
+  font-size: 1rem;
+}
+
+#main-img-container #prev-btn, 
+#main-img-container #next-btn{
+  flex-basis: 75px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  margin: auto;
+  font-size: 75px;
+}
+
+#main-img-container #prev-btn i, 
+#main-img-container #next-btn i{
+  margin: 0 auto;
+  color: #000;
+}
+
+#main-img-container #prev-btn i:hover, 
+#main-img-container #next-btn i:hover{
+  font-size: 100px;
+}
+
+#main-img-container #prev-btn i:active, 
+#main-img-container #next-btn i:active{
+  font-size: 85px;
+  color: rgb(80, 0, 80);
+}
+
+/*** Thumbnails ***/
+#thumbnail-container{
+  position: absolute;
+  bottom: 185px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: inherit;
+  height: 80px;
+}
+
+#thumbnail-container .thumbnail{
+  position: relative;
+  width: 110px;
+  background: rgba(12, 31, 23, 0.5);
+  padding: 5px 0;
+  border-radius: 5px;
+}
+
+#thumbnail-container .thumbnail .thumbnail-title{
+  display: none;
+  position: relative;
+  background: #000;
+  color: #1e90ff;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 auto;
+  width: max-content;
+  text-align: center;
+  top: -100px;
+}
+
+#thumbnail-container .thumbnail:hover .thumbnail-title {
+  display: block;
+}
+
+#thumbnail-container .thumbnail img{
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  width: 110px;
+}
